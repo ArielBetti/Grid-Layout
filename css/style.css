@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body{
+	background: linear-gradient(-10deg,#0a0a0a,#0a0a0a,#050505)!important;
+}
+
+.subtexto{
+	font-family: 'Quicksand';
+}
+
+.texto1{
+	font-size: 40px;
+}
+
+.nav-barf{
+	back
+}
+
+.quadro{
+	display: grid;
+	grid-template: 
+	"grande box1 box1"
+	"grande box2 box2"
+	"grande box3 box3"
+	;
+	grid-template-rows: auto auto auto;
+	grid-gap: 5px;
+}
+
+.grande{
+	grid-area: grande;
+	background-image: url('https://images.wallpaperscraft.com/image/road_marking_bridge_123398_360x640.jpg');
+	height: 67vh;
+}
+
+.box1{
+	grid-area: box1;
+	background-image: url('https://images.wallpaperscraft.com/image/san_francisco_usa_bridge_skyscrapers_beach_118777_1024x600.jpg');
+}
+
+.box2{
+	grid-area: box2;
+	background-image: url('https://images.wallpaperscraft.com/image/city_street_house_sidewalk_58870_1024x600.jpg');
+}
+
+.box3{
+	grid-area: box3;
+	background-image: url('https://images.wallpaperscraft.com/image/road_night_lights_88183_1024x600.jpg');
+}
+
+.jeans{
+	font-family: 'Pacifico';
+	text-decoration: none !important;
+
+}
+
+.footerbs{
+	display: grid;
+	grid-template: 
+	"logo direitos social"
+	;
+}
+.logo{
+	grid-area: logo;
+}
+.direitos{
+	grid-area: direitos;
+}
+.social{
+	grid-area: social;
+}
+
+@media (max-width: 400px){
+	.quadro{
+		display: grid;
+		grid-template: 
+		"grande"
+		"box1"
+		"box2"
+		"box3"
+		;
+		grid-template-rows: auto 40vh 40vh 40vh;
+	}
+	.box3{
+		grid-area: box3;
+		background-image: url('https://images.wallpaperscraft.com/image/road_night_lights_88183_320x480.jpg');
+	}
+	.grande{
+		grid-area: grande;
+		background-image: url('https://images.wallpaperscraft.com/image/road_marking_bridge_123398_320x480.jpg');
+	}
+	.box1{
+		grid-area: box1;
+		background-image: url('https://images.wallpaperscraft.com/image/san_francisco_usa_bridge_skyscrapers_beach_118777_320x240.jpg');
+	}
+}
+
+@media (max-width: 510px){
+	.footerbs{
+		display: grid;
+		grid-template: 
+		"logo"
+		"direitos"
+		"social"
+		;
+	}
+	.social{
+		margin-top: 15px;
+	}
+}
+
+/*Social midia buttons */
+.wp{
+	border: 1px solid white;
+    list-style: none;   
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 15px;
+    transition: .5s;
+    border-radius: 5%;   
+}
+
+.gh{
+	border: 1px solid white;
+    list-style: none;   
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 15px;
+    transition: .5s;
+    border-radius: 5%;   
+}
+
+.fb{
+	border: 1px solid white;
+    list-style: none;   
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 15px;
+    transition: .5s;
+    border-radius: 5%;   
+}
+
+.fb:hover{
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0px 1px 6px #0f7dfc;
+    background-color: #0f7dfc;
+    transition: 0.70s;
+}
+
+.gh:hover{
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0px 1px 6px #7405fc;
+    transition: 0.70s;
+    background: linear-gradient(20deg,#9d05fc,#7405fc,#ebfc05); /*Change colors as you want*/
+    background-size: 1000% 1000% !important;
+}
+
+.wp:hover{
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0px 1px 6px #02f938;
+    transition: 0.70s;
+    background: linear-gradient(20deg,#15f709,#04f731,#04f78e); /*Change colors as you want*/
+    background-size: 1000% 1000% !important;
+}
