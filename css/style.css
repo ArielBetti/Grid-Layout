@@ -148,7 +148,7 @@ body{
 	}
 }
 
-@media (max-width: 550px){
+@media (max-width: 768px){
 	.wall{
 		grid-template: 
 		"item1 item2"
