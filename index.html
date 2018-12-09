@@ -54,11 +54,53 @@
           <p class="text-white jeans text-center"></p>
         </div>
       </section>
+      <h2 class="jeans text-white text-center mt-4 pt-3">Cards</h2>
+      <p class="subtexto text-white text-center">Construindo cards com GridLayout</p>
+      <section class="wall mt-4 pt-3"> 
+
+             <div class="wall-item item1 scroll">
+                  <img src="https://images.wallpaperscraft.com/image/hong_kong_china_skyscrapers_night_city_city_lights_119347_320x240.jpg" alt="">
+                  <h2 class="subtexto text-white">Lorem ipsum dolor.</h2>
+                  <p class="subtexto text-secondary text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, vero.</p>
+            </div>
+
+             <div class="wall-item item2 scroll">
+                  <img src="https://images.wallpaperscraft.com/image/new_york_usa_night_skyscrapers_118354_320x240.jpg" alt="">
+                  <h2 class="subtexto text-white">Lorem ipsum dolor.</h2>
+                  <p class="subtexto text-secondary text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, vero.</p>
+            </div>
+
+             <div class="wall-item item3 scroll">
+                  <img src="https://images.wallpaperscraft.com/image/trolley_stop_city_evening_lighting_119292_320x240.jpg" alt="">
+                   <h2 class="subtexto text-white">Lorem ipsum dolor.</h2>
+                  <p class="subtexto text-secondary text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, vero.</p>
+            </div>
+            <div class="wall-item item4 scroll">
+                  <img src="https://images.wallpaperscraft.com/image/chongqing_china_skyscrapers_buildings_architecture_118175_320x240.jpg" alt="">
+                   <h2 class="subtexto text-white">Lorem ipsum dolor.</h2>
+                  <p class="subtexto text-secondary text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, vero.</p>
+            </div>
+
+             <div class="wall-item item5 scroll">
+                  <img src="https://images.wallpaperscraft.com/image/australia_evening_opera_theater_river_landmark_30786_320x240.jpg" alt="">
+                  <h2 class="subtexto text-white">Lorem ipsum dolor.</h2>
+                  <p class="subtexto text-secondary text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, vero.</p>
+            </div>
+
+             <div class="wall-item item6 scroll">
+                  <img src="https://images.wallpaperscraft.com/image/city_night_street_light_glare_69330_320x240.jpg" alt="">
+                   <h2 class="subtexto text-white">Lorem ipsum dolor.</h2>
+                  <p class="subtexto text-secondary text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, vero.</p>
+            </div>
+      </section>
+
+
       <div>
         <h2 class="scroll text-white text-center jeans mt-4 ">Footer</h2>
         <p class="scroll text-center text-white subtexto mt-2">Construindo footer com Grid Layout</p>
       </div>
     </main>
+
 
     <footer class="footerbs container mt-4 pt-4">
       <a class="text-white jeans" href="#">
@@ -82,6 +124,16 @@
       window.sr = ScrollReveal();
       sr.reveal('.scroll');
     </script>
+    <!-- JavaScript (GridLayout BlogStyle) -->
+    <script src="jaliswall.js"></script>
+      <script type="text/javascript">
+
+            $('.wall').jaliswall({
+                  item : '.wall-item',
+                  columnClass : '.wall-column'
+            });
+
+      </script>
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
